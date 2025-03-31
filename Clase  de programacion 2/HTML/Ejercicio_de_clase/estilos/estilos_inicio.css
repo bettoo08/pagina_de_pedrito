@@ -1,0 +1,14 @@
+body{
+font-size: 30px;
+background-color: antiquewhite;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+padding: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: grey;
+border-radius: 56rem;
+padding-top: 20px;
+padding-bottom: 20px; 
+}

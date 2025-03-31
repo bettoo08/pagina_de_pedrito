@@ -1,0 +1,43 @@
+
+
+
+
+body{
+background-color: #7ab2ce;
+
+}
+
+
+
+button{
+    border-color: black;
+border-style: groove;
+padding: 5px ;
+border-width: 3px;
+background-color: #d98880;
+border-radius: 20px;
+}
+
+img{
+    margin-bottom: 34px;
+border-radius: 90%;
+
+}
+
+input{
+border-right: 90px;
+border-radius: 10px;
+
+}
+
+
+.contenedor{
+    width: 100%; 
+    height: auto;
+    background-color: aliceblue;
+    max-width: 300px; 
+    margin: auto; 
+    margin-bottom: 40px;
+
+    
+}

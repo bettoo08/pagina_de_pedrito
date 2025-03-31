@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Este genera una factura</title>
+    <a href="inicio.html">Volver a inicio</a><br><br>
+    <link href="../Ejercicio_de_clase/estilos/estilos_factura.css" rel="stylesheet" type="text/css">
+    <script src="../Ejercicio_de_clase/JAVA/factura.js"></script>
+</head>
+<body>
+    <form>
+<label for="Codigo">Codigo</label>
+        <input type="text" placeholder="Escriba su codigo" required>
+<label for="nombre">Nombre</label>
+        <input type="text" placeholder="Escriba su nombre "required name ="nombre">
+<label for="Genero">Genero</label>
+        <select name="Genero">
+
+   
+<option>Masculino</option>
+<option>Femenino</option>
+</select>
+        <label for="Productos">Productos</label>
+<select name="Productos">
+
+<option > Azucar </option>
+<option> Arroz </option>
+<option> Maiz  </option>
+<option> Trigo  </option>
+<option> Frijol </option>
+<option> Queso  </option>
+</select>
+
+        <label for="Precio">Precio</label>
+<input type="text" placeholder="El precio del producto" id="precio_producto"  required>
+        <label for="cantidad">Cantidad de productos</label>   
+        
+<input type= "text" placeholder=" La cantidad del productos" id="Cantidad_productos"   required><br><br>
+        <label for="Fecha">Seleccione la fecha </label>
+
+<input type="date" placeholder="seleccione la fecha" required>
+
+<input type="text " placeholder="El subtotal" id="subtotal_productos"> 
+
+<input type="text " placeholder="El impuesto" id="impuesto_producto"> 
+
+<input type="text " placeholder="Total" id="total_"> 
+
+<br> <br>
+
+
+
+<div>
+<input type="radio" name="Tipo de pago" value="1"> Credito 
+<br>
+<input type="radio" name="Tipo de pago" value="1"> Debito 
+<br>
+<input type="radio" name="Tipo de pago" value="1"> Efectivo 
+<br>
+
+</div>
+
+
+<button type="button" onclick="factura_js()">
+        factura_js
+        </button>
+
+
+</form>
+
+
+</body>
+</html>

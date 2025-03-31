@@ -1,0 +1,54 @@
+body{
+background-color:#d7dbdd ;
+color: black;
+background-image: url(imagen\ de\ fondo.jpeg);
+
+}
+
+h1{
+    background-color: #d1f9f9;
+padding: 10px;
+
+border-width: 3px;
+border-color: thistle;
+border-style: groove;
+border-radius: 20px;
+
+    color:rgb(8, 0, 147);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+align-content: center;
+}
+
+div{
+    background-color: azure;
+    padding: 10px;
+    border-width: 3px;
+    border-color: mintcream;
+    border-style: groove;
+    border-radius: 20px;
+}
+
+form{
+    padding: 10px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: groove;
+    border-radius: 20px;
+background-image: url(estilo_de_fondo.jpg);
+}
+
+input{
+    border-radius: 20px;
+}
+
+a{
+    padding: 10px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: groove;
+    border-radius: 20px; 
+background-color: #d7dbdd;
+
+}
+
